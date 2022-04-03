@@ -17,7 +17,7 @@ class ValidateCategory {
         return ValidateOperations::only_alphanum_space($name, $lenmin, $lenmax);
     }
     
-    public static function description($description, $lenmin = 2, $lenmax = 64) {
+    public static function description($description, $lenmin = 2, $lenmax = 65) {
         return ValidateOperations::only_alphanum_space($description, $lenmin, $lenmax);
     }
 }
