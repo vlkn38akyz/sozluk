@@ -13,7 +13,7 @@
                   <textarea class="form-control" rows="5" id="message_content" name="message_content"></textarea>
               </div>
           </div>
-          <input id="member_id_receiver" type="hidden" name="member_id_receiver" value="" />
+          <input id="member_id_receiver" type="hidden" name="member_id_receiver" value="" /><br>
           <input type="hidden" name="send_message" />
         </form>
       </div>

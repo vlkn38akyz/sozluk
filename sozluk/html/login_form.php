@@ -8,7 +8,7 @@ if(isset($_GET['new_member'])):
 <?php endif; ?>
 
 <div class="well">
-  <form class="form-horizontal text-left" action='<?php echo Template::form_action_signin(); ?>' method="POST">
+  <form class="form-horizontal text-left" action='<?php echo Template::form_action_signin(); ?>' method="POST"><br>
       <fieldset>
           <div id="legend">
               <legend class="">giriş</legend>
